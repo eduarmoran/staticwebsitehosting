@@ -1,4 +1,4 @@
 FROM php
 COPY ./* ./
-EXPOSE 80
-CMD [ "php", "-S", "0.0.0.0:80" ]
+EXPOSE 3002
+CMD [ "php", "-S", "0.0.0.0:3002" ]
