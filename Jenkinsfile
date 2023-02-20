@@ -47,9 +47,7 @@ pipeline {
                  sh 'kubectl apply -f deployment.yml'
             }
         }             
-        
-        
-        
+/*        
     stage('DAST'){
             steps {
                  sh 'sleep 1m'
@@ -58,6 +56,7 @@ pipeline {
                  sh 'docker run --rm --env-file /tmp/env --mount type=bind,source=$PWD,target=/scan registry.fortidevsec.forticloud.com/fdevsec_dast:latest'                 
             }
         }
+        */
         
     }
 }
