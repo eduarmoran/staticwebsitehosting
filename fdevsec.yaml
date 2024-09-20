@@ -1,14 +1,14 @@
 id:
-  org: 72adc4c9-2ba3-4e38-823b-4f74a4101882
-  app: 8a10e67e-daf4-4074-b09b-83e4a7e3ff88
+  org: 1c8e09f8-da70-45a7-bda6-af03728803dc
+  app: ea3f4b08-7b67-4e28-93f3-061819cee3db
 
 # If below settings are not configured, scans will be performed for all supported scanners.
 #scanners:
-#  - sast
-#  - sca
-#  - secret
-#  - iac
-#  - container
+  - sast
+  - sca
+  - secret
+  - iac
+  - container
 #  - dast
 
 # Configures languages for sast scanner. If not configured, scans will be performed on all supported languages
